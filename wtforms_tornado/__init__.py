@@ -3,7 +3,7 @@
 from wtforms import compat
 
 
-version_tuple = (0, 0, 2)
+version_tuple = (0, 0, 3)
 
 
 def get_version_string():
@@ -14,8 +14,8 @@ def get_version_string():
 version = get_version_string()
 """Current version of wtforms-tornado."""
 
-__author__ = 'Jorge Puente Sarrín <puentesarrin@gmail.com>'
-__since__ = '2013-09-25'
+__author__ = 'Quinn <wkf928592@gmail.com>'
+__since__ = '2019-10-11'
 __version__ = version
 
 

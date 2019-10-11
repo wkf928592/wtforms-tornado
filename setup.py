@@ -8,7 +8,7 @@ except ImportError:
     use_setuptools()
     from setuptools import setup
 
-version = '0.0.2'
+version = '0.0.3'
 
 
 readme_content = ''
@@ -22,11 +22,11 @@ except:
 setup(
     name='wtforms-tornado',
     version=version,
-    url='https://github.com/puentesarrin/wtforms-tornado',
+    url='https://github.com/wkf928592/wtforms-tornado',
     description='WTForms extensions for Tornado.',
     long_description=readme_content,
-    author='Jorge Puente Sarrín',
-    author_email='puentesarrin@gmail.com',
+    author='Quinn',
+    author_email='wkf928592@gmail.com',
     packages=['wtforms_tornado'],
     keywords=['wtforms', 'tornado', 'validation'],
     install_requires=['tornado', 'wtforms'],
@@ -42,6 +42,10 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules'],
 )

@@ -39,10 +39,10 @@ class Form(form.Form):
     A Form derivative which uses the locale module from Tornado.
     """
 
-    def __init__(self, formdata=None, obj=None, prefix='', locale_code='en_US',
+    def __init__(self, formdata=None, obj=None, prefix='', data=None, meta=None, locale_code='en_US',
              **kwargs):
         self._locale_code = locale_code
-        super(Form, self).__init__(formdata, obj, prefix, **kwargs)
+        super(Form, self).__init__(formdata, obj, prefix, data, meta, **kwargs)
 
     def process(self, formdata=None, obj=None, **kwargs):
         if formdata is not None and not hasattr(formdata, 'getlist'):

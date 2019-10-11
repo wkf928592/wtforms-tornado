@@ -92,8 +92,7 @@ class DummyHandler(web.RequestHandler):
                 self.finish(form.errors)
 
 
-class TornadoApplicationTest(testing.AsyncHTTPTestCase,
-                             testing.LogTrapTestCase):
+class TornadoApplicationTest(testing.AsyncHTTPTestCase):
 
     def setUp(self):
         super(TornadoApplicationTest, self).setUp()
